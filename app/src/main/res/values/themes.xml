@@ -21,11 +21,22 @@
         <item name="lottie_rawRes">@raw/zzzz</item>
 
 
-    </style><style name="Theme.honeygain.Lottie2">
+    </style>
+
+    <style name="Theme.honeygain.Lottie2">
 
         <item name="lottie_autoPlay">true</item>
         <item name="lottie_loop">true</item>
         <item name="lottie_rawRes">@raw/dddedr</item>
+
+
+    </style>
+
+    <style name="Theme.honeygain.Lottie3">
+
+        <item name="lottie_autoPlay">true</item>
+        <item name="lottie_loop">true</item>
+        <item name="lottie_rawRes">@raw/zzzzzzzn</item>
 
 
     </style>

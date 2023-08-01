@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/honeygaincase102_splash_screen3"
+    android:background="@drawable/z"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -12,10 +12,11 @@
         android:layout_centerInParent="true">
 
         <com.google.android.material.card.MaterialCardView
+            android:id="@+id/x"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="150dp"
+            android:layout_marginBottom="250dp"
             android:elevation="6dp"
             app:cardCornerRadius="50dp"
             app:strokeColor="#000"
@@ -30,7 +31,13 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-
+        <com.airbnb.lottie.LottieAnimationView
+            style="@style/Theme.honeygain.Lottie3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/x"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
     </RelativeLayout>
 
     <ProgressBar
