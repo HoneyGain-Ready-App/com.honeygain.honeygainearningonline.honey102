@@ -62,7 +62,7 @@
                     android:layout_width="270dp"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Looking forward to your next visit..! "
+                    android:text="Looking Forward To Your Next Visit..! "
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
