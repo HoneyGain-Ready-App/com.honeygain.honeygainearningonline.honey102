@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fontcolor">#000000</color>
+    <color name="card_detail">#F2F2F2</color>
+    <color name="txt_btn">@color/black</color>
+</resources>

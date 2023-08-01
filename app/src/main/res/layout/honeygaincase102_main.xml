@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/honeygaincase102_bggg"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+    </FrameLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="3">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/btnStart"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="180dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#fff"
+                android:text="Start"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <Button
+
+                android:id="@+id/btnShare"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="180dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#fff"
+                android:text="Share"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+            <Button
+
+                android:id="@+id/btnrate"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="180dp"
+                android:layout_height="55dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#fff"
+                android:text="Rate"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <FrameLayout
+
+        android:id="@+id/fl_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.4"
+        android:gravity="bottom"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+
+</LinearLayout>

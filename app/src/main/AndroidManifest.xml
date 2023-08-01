@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.honeygaincash.honeygaincase102">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.honeygain"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_Continue_Next"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_DetailsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_MainActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_Continue"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_start_page"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_Next"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_Exit"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_Thank_you"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeygaincash.honeygaincase102.honeygaincase102_SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

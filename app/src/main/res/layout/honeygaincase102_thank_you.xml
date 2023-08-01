@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/honeygaincase102_bggg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <FrameLayout
+        android:id="@+id/fl_adplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15.0dip"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center"
+                android:text="Remember, I'm Here To Help Whenever You Need Me Again! "
+                android:textColor="@color/black"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                style="@style/Theme.honeygain.Lottie1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="270dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Looking forward to your next visit..! "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    style="@style/Theme.honeygain.Lottie2"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="5dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true" />
+
+                <Button
+                    android:id="@+id/visitr"
+                    style="@style/Widget.Material3.Button.ElevatedButton"
+                    android:layout_width="180dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#fff"
+                    android:text="Exit App"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/fl_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.4"
+        android:gravity="bottom"
+        android:visibility="visible">
+
+    </FrameLayout>
+</LinearLayout>
